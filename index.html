@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="mb-4">
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
@@ -208,25 +208,26 @@
 
 
                 <div class="col-lg-4 mb-4">
-                    <div class="border">
-                        <header>
-                            <h2 class="fw-light">Todo</h2>
+                    <div class="border rounded mb-4">
+                        <header class="bg-light">
+                            <h2 class="fw-light ps-3 pt-2">Todo</h2>
+                            <hr>
                         </header>
-                        <hr>
-                        <main>
-                            <div class="form-check">
+                        
+                        <main class="border rounded m-3 p-2">
+                            <div class="form-check border-bottom py-2">
                                 <input class="form-check-input" type="checkbox" value="" id="checkDefault">
                                 <label class="form-check-label" for="checkDefault">
                                     Chiamare segreteria
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check border-bottom py-2">
                                 <input class="form-check-input" type="checkbox" value="" id="checkChecked">
                                 <label class="form-check-label" for="checkChecked">
                                     Mandare avvisi prestiti scaduti
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check py-2">
                                 <input class="form-check-input" type="checkbox" value="" id="checkChecked">
                                 <label class="form-check-label" for="checkChecked">
                                     Ordinare nuovi libri
@@ -237,12 +238,13 @@
                     <!-- ./todo -->
 
 
-                    <div class="border">
-                        <header>
-                            <h2 class="fw-light">F.A.Q.</h2>
+                    <div class="border rounded">
+                        <header class="bg-light">
+                            <h2 class="fw-light ps-3 pt-2">F.A.Q.</h2>
+                            <hr>
                         </header>
                         <main>
-                            <div class="accordion" id="accordionExample">
+                            <div class="accordion accordion-flush" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button"
