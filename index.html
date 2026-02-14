@@ -52,228 +52,278 @@
 
     <main>
         <div class="container">
-            <div class="row row-cols-lg-8">
-                <div class="d-flex justify-content-between">
-                    <h2 class="fw-light">Catalogo Libri</h2>
-                    <button class="bg-primary text-light border-0 rounded py-2 px-3 fw-light">Aggiungi Libro</button>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="d-flex justify-content-between">
+                        <h2 class="fw-light">Catalogo Libri</h2>
+                        <button class="bg-primary text-light border-0 rounded py-2 px-3 fw-light">Aggiungi Libro</button>
+                    </div>
+
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Titolo</th>
+                                <th scope="col">Data prestito</th>
+                                <th scope="col">Stato</th>
+                                <th scope="col">Azioni</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">I pilastri della terra</td>
+                                <td>-</td>
+                                <td>Disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">I promessi sposi</td>
+                                <td>-</td>
+                                <td>Disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Il signore degli anelli</td>
+                                <td>18/10/2023</td>
+                                <td>In prestito</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Harry Potter e la pietra filosofale</td>
+                                <td>-</td>
+                                <td>Disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Il codice Da Vinci</td>
+                                <td>-</td>
+                                <td>Non disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Shining</td>
+                                <td>-</td>
+                                <td>Disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">La divina commedia</td>
+                                <td>21/09/2023</td>
+                                <td>In prestito</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Il trono di spade</td>
+                                <td>-</td>
+                                <td>Disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Il mondo di Sofia</td>
+                                <td>-</td>
+                                <td>Non disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                                <td>25/07/2023</td>
+                                <td>In prestito</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Il piccolo principe</td>
+                                <td>-</td>
+                                <td>Disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">La storia infinita</td>
+                                <td>-</td>
+                                <td>Disponibile</td>
+                                <td class="d-flex gap-1">
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-pencil-fill"></i></button>
+                                    <button class="rounded text-secondary border-1 border-secondary"><i
+                                            class="bi bi-trash3-fill"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">Titolo</th>
-                            <th scope="col">Data prestito</th>
-                            <th scope="col">Stato</th>
-                            <th scope="col">Azioni</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td scope="row">I pilastri della terra</td>
-                            <td>-</td>
-                            <td>Disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">I promessi sposi</td>
-                            <td>-</td>
-                            <td>Disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">Il signore degli anelli</td>
-                            <td>18/10/2023</td>
-                            <td>In prestito</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">Harry Potter e la pietra filosofale</td>
-                            <td>-</td>
-                            <td>Disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">Il codice Da Vinci</td>
-                            <td>-</td>
-                            <td>Non disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">Shining</td>
-                            <td>-</td>
-                            <td>Disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">La divina commedia</td>
-                            <td>21/09/2023</td>
-                            <td>In prestito</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">Il trono di spade</td>
-                            <td>-</td>
-                            <td>Disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">Il mondo di Sofia</td>
-                            <td>-</td>
-                            <td>Non disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">Le cronache di Narnia: il leone, la strega e l'armadio</td>
-                            <td>25/07/2023</td>
-                            <td>In prestito</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">Il piccolo principe</td>
-                            <td>-</td>
-                            <td>Disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td scope="row">La storia infinita</td>
-                            <td>-</td>
-                            <td>Disponibile</td>
-                            <td class="d-flex gap-1">
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                <button class="rounded text-secondary border-1 border-secondary"><i class="bi bi-trash3-fill"></i></button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!-- ./row -->
 
-            <div class="row row-cols-lg-4">
-                <header>
-                    <h2 class="fw-light">Todo</h2>
-                </header>
-                <main>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                        <label class="form-check-label" for="checkDefault">
-                            Chiamare segreteria
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkChecked">
-                        <label class="form-check-label" for="checkChecked">
-                            Mandare avvisi prestiti scaduti
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkChecked">
-                        <label class="form-check-label" for="checkChecked">
-                            Ordinare nuovi libri
-                        </label>
-                    </div>
-                </main>
-            </div>
 
-            <div class="row">
-                <header>
-                    <h2 class="fw-light">F.A.Q.</h2>
-                </header>
-                <main>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    Come aggiungere un nuovo libro?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item’s accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It’s also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="border">
+                        <header>
+                            <h2 class="fw-light">Todo</h2>
+                        </header>
+                        <hr>
+                        <main>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                <label class="form-check-label" for="checkDefault">
+                                    Chiamare segreteria
+                                </label>
                             </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Come posso accedere all'anagrafica utenti?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the second item’s accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It’s also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkChecked">
+                                <label class="form-check-label" for="checkChecked">
+                                    Mandare avvisi prestiti scaduti
+                                </label>
                             </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Posso usare questa dashboard da mobile?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item’s accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It’s also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkChecked">
+                                <label class="form-check-label" for="checkChecked">
+                                    Ordinare nuovi libri
+                                </label>
                             </div>
-                        </div>
+                        </main>
                     </div>
-                </main>
+                    <!-- ./todo -->
+
+
+                    <div class="border">
+                        <header>
+                            <h2 class="fw-light">F.A.Q.</h2>
+                        </header>
+                        <main>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
+                                            Come aggiungere un nuovo libro?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item’s accordion body.</strong> It is shown by
+                                            default,
+                                            until the collapse plugin adds the appropriate classes that we use to style
+                                            each
+                                            element. These classes control the overall appearance, as well as the
+                                            showing and
+                                            hiding via CSS transitions. You can modify any of this with custom CSS or
+                                            overriding
+                                            our default variables. It’s also worth noting that just about any HTML can
+                                            go within
+                                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Come posso accedere all'anagrafica utenti?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item’s accordion body.</strong> It is hidden by
+                                            default,
+                                            until the collapse plugin adds the appropriate classes that we use to style
+                                            each
+                                            element. These classes control the overall appearance, as well as the
+                                            showing and
+                                            hiding via CSS transitions. You can modify any of this with custom CSS or
+                                            overriding
+                                            our default variables. It’s also worth noting that just about any HTML can
+                                            go within
+                                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Posso usare questa dashboard da mobile?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item’s accordion body.</strong> It is hidden by
+                                            default,
+                                            until the collapse plugin adds the appropriate classes that we use to style
+                                            each
+                                            element. These classes control the overall appearance, as well as the
+                                            showing and
+                                            hiding via CSS transitions. You can modify any of this with custom CSS or
+                                            overriding
+                                            our default variables. It’s also worth noting that just about any HTML can
+                                            go within
+                                            the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
             </div>
-            <!-- /.row -->
+            <!-- /.row-principale -->
         </div>
         <!-- /.container -->
 
